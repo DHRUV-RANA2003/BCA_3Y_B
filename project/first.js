@@ -92,28 +92,48 @@
 //  (function(){
 //     document.write("hello chitta")
 //  }());
-function morning(){
-   document.getElementById("demo").innerHTML="Good Morning"
-   document.getElementById("mode").style.background="skyblue"
-   document.getElementById("mode").style.color="blue"
-   document.getElementById("x").style.background="red"
-}
-function afternoon(){
-   document.getElementById("demo").innerHTML="Good Afternoon"
-   document.getElementById("mode").style.background="orange"
-   document.getElementById("mode").style.color="red"
-}
+// function morning(){
+//    document.getElementById("demo").innerHTML="Good Morning"
+//    document.getElementById("mode").style.background="skyblue"
+//    document.getElementById("mode").style.color="blue"
+//    document.getElementById("x").style.background="red"
+// }
+// function afternoon(){
+//    document.getElementById("demo").innerHTML="Good Afternoon"
+//    document.getElementById("mode").style.background="orange"
+//    document.getElementById("mode").style.color="red"
+// }
 
-function evening(){
-   document.getElementById("demo").innerHTML="Good Evening"
-   document.getElementById("mode").style.background="goldenrod"
-   document.getElementById("mode").style.color="yellow"
-}
+// function evening(){
+//    document.getElementById("demo").innerHTML="Good Evening"
+//    document.getElementById("mode").style.background="goldenrod"
+//    document.getElementById("mode").style.color="yellow"
+// }
 
-function night(){
-   document.getElementById("demo").innerHTML="Good Night"
-    document.getElementById("mode").style.background="black"
-   document.getElementById("mode").style.color="white"
-}
-
-
+// function night(){
+//    document.getElementById("demo").innerHTML="Good Night"
+//     document.getElementById("mode").style.background="black"
+//    document.getElementById("mode").style.color="white"
+// }
+//------------------------------------------------------------
+// let student={
+//    id:101,
+//    sname:"dhruv",
+//    isStudent:true,
+// }
+// console.log(student)
+// let{id,sname,isStudent}=student
+// console.log(id)
+// console.log(sname)
+// console.log(isStudent)
+// // let{id:srno,sname:fullname,isStudent:st}=student
+// // console.log(srno)
+// // console.log(fullname)
+// // console.log(st)
+// student.id=102
+// console.log(student['id'])
+// student['age']=20
+// console.log(student)
+// delete student.age
+// console.log(student)
+//---------------------------------------------------
